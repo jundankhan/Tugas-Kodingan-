@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+int main(){
+    char aku [5] = "halo";
+    char dia [5] = "...";
+    double nilai;
+    
+    nilai = strcmp(aku,dia);
+    if (nilai<0)
+        printf("Kalian tidak cocok\n");
+    else if (nilai == 0)
+        printf("Kalian Sangat Cocok!\n");
+    else if (nilai > 0)
+        printf("Kamu ditikung\n");
+    
+    while (sin(nilai) < 1)
+        nilai += 0.0179;
+    if(nilai = nilai-1)
+        printf("Hasilnya : %d\n", -nilai);
+    else 
+        printf("Hasilnya : %d\n", nilai);
+
+    return 0;
+}
